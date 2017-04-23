@@ -27,9 +27,7 @@
 * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 *******************************************************************************/
 
-
-//SUUUUUP
-//FUCK YOU
+//El Pollo loco
 
 #include <project.h>
 #include <mpu6050.h>
