@@ -3312,15 +3312,15 @@ END GROUP
 
 .debug_str      0x00000000     0x4d27
  *(.debug_str)
- .debug_str     0x00000000      0x296 .\ARM_GCC_493\Debug\main.o
-                                0x30c (size before relaxing)
- .debug_str     0x00000296      0x207 .\ARM_GCC_493\Debug\LiquidCrystal_I2C.o
+ .debug_str     0x00000000      0x28f .\ARM_GCC_493\Debug\main.o
+                                0x305 (size before relaxing)
+ .debug_str     0x0000028f      0x23b .\ARM_GCC_493\Debug\LiquidCrystal_I2C.o
                                 0x3eb (size before relaxing)
- .debug_str     0x0000049d       0xbd .\ARM_GCC_493\Debug\i2cFunctions.o
+ .debug_str     0x000004ca       0xbd .\ARM_GCC_493\Debug\i2cFunctions.o
                                 0x266 (size before relaxing)
- .debug_str     0x0000055a       0x53 .\ARM_GCC_493\Debug\functions.o
+ .debug_str     0x00000587       0x53 .\ARM_GCC_493\Debug\functions.o
                                 0x217 (size before relaxing)
- .debug_str     0x000005ad     0x1cd8 .\ARM_GCC_493\Debug\mpu6050.o
+ .debug_str     0x000005da     0x1cab .\ARM_GCC_493\Debug\mpu6050.o
                                0x1e81 (size before relaxing)
  .debug_str     0x00002285       0x75 .\ARM_GCC_493\Debug\cymetadata.o
                                 0x1dc (size before relaxing)
