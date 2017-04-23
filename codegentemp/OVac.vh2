@@ -2,7 +2,7 @@
 --	Conversion of OVac.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sun Apr 23 14:37:33 2017
+--	Sun Apr 23 14:39:40 2017
 --
 
 USE cypress.cypress.all;
@@ -57,11 +57,11 @@ SIGNAL tmpIO_0__ADC_in_net_0 : bit;
 TERMINAL tmpSIOVREF__ADC_in_net_0 : bit;
 SIGNAL one : bit;
 SIGNAL tmpINTERRUPT_0__ADC_in_net_0 : bit;
-SIGNAL tmpOE__LED3_net_0 : bit;
-SIGNAL tmpFB_0__LED3_net_0 : bit;
-SIGNAL tmpIO_0__LED3_net_0 : bit;
-TERMINAL tmpSIOVREF__LED3_net_0 : bit;
-SIGNAL tmpINTERRUPT_0__LED3_net_0 : bit;
+SIGNAL tmpOE__LED7_net_0 : bit;
+SIGNAL tmpFB_0__LED7_net_0 : bit;
+SIGNAL tmpIO_0__LED7_net_0 : bit;
+TERMINAL tmpSIOVREF__LED7_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__LED7_net_0 : bit;
 SIGNAL tmpOE__SDA_net_0 : bit;
 SIGNAL tmpFB_0__SDA_net_0 : bit;
 SIGNAL Net_39 : bit;
@@ -1245,7 +1245,7 @@ ADC_in:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__ADC_in_net_0,
 		out_reset=>zero,
 		interrupt=>tmpINTERRUPT_0__ADC_in_net_0);
-LED3:cy_psoc3_pins_v1_10
+LED7:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"ccfe27d4-70ee-42dc-a422-0465741d6615",
 		drive_mode=>"110",
 		ibuf_enabled=>"1",
@@ -1303,10 +1303,10 @@ LED3:cy_psoc3_pins_v1_10
 		input_buffer_sel=>"00")
 	PORT MAP(oe=>(tmpOE__ADC_in_net_0),
 		y=>(zero),
-		fb=>(tmpFB_0__LED3_net_0),
+		fb=>(tmpFB_0__LED7_net_0),
 		analog=>(open),
-		io=>(tmpIO_0__LED3_net_0),
-		siovref=>(tmpSIOVREF__LED3_net_0),
+		io=>(tmpIO_0__LED7_net_0),
+		siovref=>(tmpSIOVREF__LED7_net_0),
 		annotation=>(open),
 		in_clock=>zero,
 		in_clock_en=>tmpOE__ADC_in_net_0,
@@ -1314,7 +1314,7 @@ LED3:cy_psoc3_pins_v1_10
 		out_clock=>zero,
 		out_clock_en=>tmpOE__ADC_in_net_0,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__LED3_net_0);
+		interrupt=>tmpINTERRUPT_0__LED7_net_0);
 SDA:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"22863ebe-a37b-476f-b252-6e49a8c00b12",
 		drive_mode=>"010",

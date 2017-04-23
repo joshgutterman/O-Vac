@@ -38,8 +38,8 @@ Archive member included because of file (symbol)
                               .\ARM_GCC_493\Debug\main.o (countdown_StartEx)
 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
                               .\ARM_GCC_493\Debug\main.o (LED2_1_Write)
-.\ARM_GCC_493\Debug\OVac.a(LED5.o)
-                              .\ARM_GCC_493\Debug\main.o (LED5_Write)
+.\ARM_GCC_493\Debug\OVac.a(LED7.o)
+                              .\ARM_GCC_493\Debug\main.o (LED7_Write)
 .\ARM_GCC_493\Debug\OVac.a(CyBootAsmGnu.o)
                               .\ARM_GCC_493\Debug\OVac.a(cyfitter_cfg.o) (CyDelayCycles)
 .\ARM_GCC_493\Debug\OVac.a(CyFlash.o)
@@ -1191,15 +1191,15 @@ Discarded input sections
                 0x00000000       0x20 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
  .text.LED2_1_ReadDataReg
                 0x00000000       0x20 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
- .text          0x00000000        0x0 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
- .data          0x00000000        0x0 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
- .bss           0x00000000        0x0 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
- .text.LED5_SetDriveMode
-                0x00000000       0x38 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
- .text.LED5_Read
-                0x00000000       0x1c .\ARM_GCC_493\Debug\OVac.a(LED5.o)
- .text.LED5_ReadDataReg
-                0x00000000       0x1c .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+ .text          0x00000000        0x0 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
+ .data          0x00000000        0x0 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
+ .bss           0x00000000        0x0 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
+ .text.LED7_SetDriveMode
+                0x00000000       0x38 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
+ .text.LED7_Read
+                0x00000000       0x1c .\ARM_GCC_493\Debug\OVac.a(LED7.o)
+ .text.LED7_ReadDataReg
+                0x00000000       0x1c .\ARM_GCC_493\Debug\OVac.a(LED7.o)
  .data          0x00000000        0x0 .\ARM_GCC_493\Debug\OVac.a(CyBootAsmGnu.o)
  .bss           0x00000000        0x0 .\ARM_GCC_493\Debug\OVac.a(CyBootAsmGnu.o)
  .text          0x00000000        0x0 .\ARM_GCC_493\Debug\OVac.a(CyFlash.o)
@@ -2146,9 +2146,9 @@ END GROUP
  .text.LED2_1_Write
                 0x00002f80       0x3c .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
                 0x00002f80                LED2_1_Write
- .text.LED5_Write
-                0x00002fbc       0x34 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
-                0x00002fbc                LED5_Write
+ .text.LED7_Write
+                0x00002fbc       0x34 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
+                0x00002fbc                LED7_Write
  .text          0x00002ff0       0x58 .\ARM_GCC_493\Debug\OVac.a(CyBootAsmGnu.o)
                 0x00002ff0                CyDelayCycles
                 0x0000302e                CyEnterCriticalSection
@@ -3121,7 +3121,7 @@ END GROUP
  .debug_aranges
                 0x000013e8       0x38 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
  .debug_aranges
-                0x00001420       0x38 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+                0x00001420       0x38 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
  .debug_aranges
                 0x00001458       0x20 .\ARM_GCC_493\Debug\OVac.a(CyBootAsmGnu.o)
  .debug_aranges
@@ -3170,7 +3170,7 @@ END GROUP
  .debug_info    0x00006ba6      0x254 .\ARM_GCC_493\Debug\OVac.a(Countdown_timer.o)
  .debug_info    0x00006dfa      0x23a .\ARM_GCC_493\Debug\OVac.a(countdown.o)
  .debug_info    0x00007034      0x11e .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
- .debug_info    0x00007152      0x11e .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+ .debug_info    0x00007152      0x11e .\ARM_GCC_493\Debug\OVac.a(LED7.o)
  .debug_info    0x00007270       0x7b .\ARM_GCC_493\Debug\OVac.a(CyBootAsmGnu.o)
  .debug_info    0x000072eb      0x36a .\ARM_GCC_493\Debug\OVac.a(CyFlash.o)
  .debug_info    0x00007655      0x453 .\ARM_GCC_493\Debug\OVac.a(CySpc.o)
@@ -3208,7 +3208,7 @@ END GROUP
  .debug_abbrev  0x00001895      0x11b .\ARM_GCC_493\Debug\OVac.a(Countdown_timer.o)
  .debug_abbrev  0x000019b0      0x172 .\ARM_GCC_493\Debug\OVac.a(countdown.o)
  .debug_abbrev  0x00001b22       0x90 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
- .debug_abbrev  0x00001bb2       0x90 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+ .debug_abbrev  0x00001bb2       0x90 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
  .debug_abbrev  0x00001c42       0x14 .\ARM_GCC_493\Debug\OVac.a(CyBootAsmGnu.o)
  .debug_abbrev  0x00001c56      0x13c .\ARM_GCC_493\Debug\OVac.a(CyFlash.o)
  .debug_abbrev  0x00001d92      0x16c .\ARM_GCC_493\Debug\OVac.a(CySpc.o)
@@ -3246,7 +3246,7 @@ END GROUP
  .debug_line    0x00004056      0x178 .\ARM_GCC_493\Debug\OVac.a(Countdown_timer.o)
  .debug_line    0x000041ce      0x144 .\ARM_GCC_493\Debug\OVac.a(countdown.o)
  .debug_line    0x00004312       0x95 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
- .debug_line    0x000043a7       0x93 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+ .debug_line    0x000043a7       0x93 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
  .debug_line    0x0000443a       0x7d .\ARM_GCC_493\Debug\OVac.a(CyBootAsmGnu.o)
  .debug_line    0x000044b7      0x205 .\ARM_GCC_493\Debug\OVac.a(CyFlash.o)
  .debug_line    0x000046bc      0x215 .\ARM_GCC_493\Debug\OVac.a(CySpc.o)
@@ -3283,7 +3283,7 @@ END GROUP
  .debug_frame   0x00004bd8      0x230 .\ARM_GCC_493\Debug\OVac.a(Countdown_timer.o)
  .debug_frame   0x00004e08      0x1e8 .\ARM_GCC_493\Debug\OVac.a(countdown.o)
  .debug_frame   0x00004ff0       0xa8 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
- .debug_frame   0x00005098       0xa8 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+ .debug_frame   0x00005098       0xa8 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
  .debug_frame   0x00005140      0x210 .\ARM_GCC_493\Debug\OVac.a(CyFlash.o)
  .debug_frame   0x00005350      0x1f8 .\ARM_GCC_493\Debug\OVac.a(CySpc.o)
  .debug_frame   0x00005548       0x54 .\ARM_GCC_493\Debug\OVac.a(emFile_ConfigMMC_SPI.o)
@@ -3364,7 +3364,7 @@ END GROUP
                                 0x2bd (size before relaxing)
  .debug_str     0x000042f3       0x60 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
                                 0x1d2 (size before relaxing)
- .debug_str     0x00004353       0x56 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+ .debug_str     0x00004353       0x56 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
                                 0x1c8 (size before relaxing)
  .debug_str     0x000043a9      0x13e .\ARM_GCC_493\Debug\OVac.a(CyFlash.o)
                                 0x2d5 (size before relaxing)
@@ -3414,7 +3414,7 @@ END GROUP
  .debug_ranges  0x00001160       0x80 .\ARM_GCC_493\Debug\OVac.a(Countdown_timer.o)
  .debug_ranges  0x000011e0       0x70 .\ARM_GCC_493\Debug\OVac.a(countdown.o)
  .debug_ranges  0x00001250       0x28 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
- .debug_ranges  0x00001278       0x28 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+ .debug_ranges  0x00001278       0x28 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
  .debug_ranges  0x000012a0       0x70 .\ARM_GCC_493\Debug\OVac.a(CyFlash.o)
  .debug_ranges  0x00001310       0x68 .\ARM_GCC_493\Debug\OVac.a(CySpc.o)
  .debug_ranges  0x00001378       0x18 .\ARM_GCC_493\Debug\OVac.a(emFile_ConfigMMC_SPI.o)
@@ -3451,7 +3451,7 @@ END GROUP
  .comment       0x00000000       0x71 .\ARM_GCC_493\Debug\OVac.a(Countdown_timer.o)
  .comment       0x00000000       0x71 .\ARM_GCC_493\Debug\OVac.a(countdown.o)
  .comment       0x00000000       0x71 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
- .comment       0x00000000       0x71 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+ .comment       0x00000000       0x71 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
  .comment       0x00000000       0x71 .\ARM_GCC_493\Debug\OVac.a(CyFlash.o)
  .comment       0x00000000       0x71 .\ARM_GCC_493\Debug\OVac.a(CySpc.o)
  .comment       0x00000070       0x2b .\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
@@ -3559,7 +3559,7 @@ END GROUP
  .ARM.attributes
                 0x00000560       0x33 .\ARM_GCC_493\Debug\OVac.a(LED2_1.o)
  .ARM.attributes
-                0x00000593       0x33 .\ARM_GCC_493\Debug\OVac.a(LED5.o)
+                0x00000593       0x33 .\ARM_GCC_493\Debug\OVac.a(LED7.o)
  .ARM.attributes
                 0x000005c6       0x21 .\ARM_GCC_493\Debug\OVac.a(CyBootAsmGnu.o)
  .ARM.attributes

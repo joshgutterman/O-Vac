@@ -171,9 +171,9 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\adjust_timer.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\adjust_timer.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\adjust_timer_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LED5_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LED5.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LED5.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LED7_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LED7.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LED7.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\Export\ARM_GCC_Generic">
