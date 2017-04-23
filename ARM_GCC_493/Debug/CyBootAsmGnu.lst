@@ -11591,38 +11591,38 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  279              	.set LED2_1__SHIFT, 1
  280              	.set LED2_1__SLW, CYREG_PRT2_SLW
  281              	
- 282              	/* LED4 */
- 283              	.set LED4__0__INTTYPE, CYREG_PICU12_INTTYPE7
- 284              	.set LED4__0__MASK, 0x80
- 285              	.set LED4__0__PC, CYREG_PRT12_PC7
- 286              	.set LED4__0__PORT, 12
- 287              	.set LED4__0__SHIFT, 7
- 288              	.set LED4__AG, CYREG_PRT12_AG
- 289              	.set LED4__BIE, CYREG_PRT12_BIE
- 290              	.set LED4__BIT_MASK, CYREG_PRT12_BIT_MASK
- 291              	.set LED4__BYP, CYREG_PRT12_BYP
- 292              	.set LED4__DM0, CYREG_PRT12_DM0
- 293              	.set LED4__DM1, CYREG_PRT12_DM1
- 294              	.set LED4__DM2, CYREG_PRT12_DM2
- 295              	.set LED4__DR, CYREG_PRT12_DR
- 296              	.set LED4__INP_DIS, CYREG_PRT12_INP_DIS
- 297              	.set LED4__INTTYPE_BASE, CYDEV_PICU_INTTYPE_PICU12_BASE
- 298              	.set LED4__MASK, 0x80
- 299              	.set LED4__PORT, 12
- 300              	.set LED4__PRT, CYREG_PRT12_PRT
- 301              	.set LED4__PRTDSI__DBL_SYNC_IN, CYREG_PRT12_DBL_SYNC_IN
- 302              	.set LED4__PRTDSI__OE_SEL0, CYREG_PRT12_OE_SEL0
- 303              	.set LED4__PRTDSI__OE_SEL1, CYREG_PRT12_OE_SEL1
- 304              	.set LED4__PRTDSI__OUT_SEL0, CYREG_PRT12_OUT_SEL0
- 305              	.set LED4__PRTDSI__OUT_SEL1, CYREG_PRT12_OUT_SEL1
- 306              	.set LED4__PRTDSI__SYNC_OUT, CYREG_PRT12_SYNC_OUT
- 307              	.set LED4__PS, CYREG_PRT12_PS
- 308              	.set LED4__SHIFT, 7
- 309              	.set LED4__SIO_CFG, CYREG_PRT12_SIO_CFG
- 310              	.set LED4__SIO_DIFF, CYREG_PRT12_SIO_DIFF
- 311              	.set LED4__SIO_HYST_EN, CYREG_PRT12_SIO_HYST_EN
- 312              	.set LED4__SIO_REG_HIFREQ, CYREG_PRT12_SIO_REG_HIFREQ
- 313              	.set LED4__SLW, CYREG_PRT12_SLW
+ 282              	/* LED5 */
+ 283              	.set LED5__0__INTTYPE, CYREG_PICU12_INTTYPE7
+ 284              	.set LED5__0__MASK, 0x80
+ 285              	.set LED5__0__PC, CYREG_PRT12_PC7
+ 286              	.set LED5__0__PORT, 12
+ 287              	.set LED5__0__SHIFT, 7
+ 288              	.set LED5__AG, CYREG_PRT12_AG
+ 289              	.set LED5__BIE, CYREG_PRT12_BIE
+ 290              	.set LED5__BIT_MASK, CYREG_PRT12_BIT_MASK
+ 291              	.set LED5__BYP, CYREG_PRT12_BYP
+ 292              	.set LED5__DM0, CYREG_PRT12_DM0
+ 293              	.set LED5__DM1, CYREG_PRT12_DM1
+ 294              	.set LED5__DM2, CYREG_PRT12_DM2
+ 295              	.set LED5__DR, CYREG_PRT12_DR
+ 296              	.set LED5__INP_DIS, CYREG_PRT12_INP_DIS
+ 297              	.set LED5__INTTYPE_BASE, CYDEV_PICU_INTTYPE_PICU12_BASE
+ 298              	.set LED5__MASK, 0x80
+ 299              	.set LED5__PORT, 12
+ 300              	.set LED5__PRT, CYREG_PRT12_PRT
+ 301              	.set LED5__PRTDSI__DBL_SYNC_IN, CYREG_PRT12_DBL_SYNC_IN
+ 302              	.set LED5__PRTDSI__OE_SEL0, CYREG_PRT12_OE_SEL0
+ 303              	.set LED5__PRTDSI__OE_SEL1, CYREG_PRT12_OE_SEL1
+ 304              	.set LED5__PRTDSI__OUT_SEL0, CYREG_PRT12_OUT_SEL0
+ 305              	.set LED5__PRTDSI__OUT_SEL1, CYREG_PRT12_OUT_SEL1
+ 306              	.set LED5__PRTDSI__SYNC_OUT, CYREG_PRT12_SYNC_OUT
+ 307              	.set LED5__PS, CYREG_PRT12_PS
+ 308              	.set LED5__SHIFT, 7
+ 309              	.set LED5__SIO_CFG, CYREG_PRT12_SIO_CFG
+ 310              	.set LED5__SIO_DIFF, CYREG_PRT12_SIO_DIFF
+ 311              	.set LED5__SIO_HYST_EN, CYREG_PRT12_SIO_HYST_EN
+ 312              	.set LED5__SIO_REG_HIFREQ, CYREG_PRT12_SIO_REG_HIFREQ
+ 313              	.set LED5__SLW, CYREG_PRT12_SLW
  314              	
  315              	/* emFile_Clock_1 */
  316              	.set emFile_Clock_1__CFG0, CYREG_CLKDIST_DCFG0_CFG0

@@ -27,9 +27,9 @@
   <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\ADC_in_aliases.h" value="HEADER;;;;;ADC_in" />
   <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\ADC_in.c" value="SOURCE_C;CortexM3;;;;ADC_in" />
   <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\ADC_in.h" value="HEADER;;;;;ADC_in" />
-  <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\LED4_aliases.h" value="HEADER;;;;;LED4" />
-  <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\LED4.c" value="SOURCE_C;CortexM3;;;;LED4" />
-  <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\LED4.h" value="HEADER;;;;;LED4" />
+  <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\LED5_aliases.h" value="HEADER;;;;;LED5" />
+  <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\LED5.c" value="SOURCE_C;CortexM3;;;;LED5" />
+  <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\LED5.h" value="HEADER;;;;;LED5" />
   <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\SDA_aliases.h" value="HEADER;;;;;SDA" />
   <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\SDA.c" value="SOURCE_C;CortexM3;;;;SDA" />
   <file name="C:\Users\jwgutter\Documents\O-Vac\OVac.cydsn\codegentemp\SDA.h" value="HEADER;;;;;SDA" />

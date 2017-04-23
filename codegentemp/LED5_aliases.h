@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: LED4.h  
+* File Name: LED5.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_LED4_ALIASES_H) /* Pins LED4_ALIASES_H */
-#define CY_PINS_LED4_ALIASES_H
+#if !defined(CY_PINS_LED5_ALIASES_H) /* Pins LED5_ALIASES_H */
+#define CY_PINS_LED5_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -25,12 +25,12 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define LED4_0			(LED4__0__PC)
-#define LED4_0_INTR	((uint16)((uint16)0x0001u << LED4__0__SHIFT))
+#define LED5_0			(LED5__0__PC)
+#define LED5_0_INTR	((uint16)((uint16)0x0001u << LED5__0__SHIFT))
 
-#define LED4_INTR_ALL	 ((uint16)(LED4_0_INTR))
+#define LED5_INTR_ALL	 ((uint16)(LED5_0_INTR))
 
-#endif /* End Pins LED4_ALIASES_H */
+#endif /* End Pins LED5_ALIASES_H */
 
 
 /* [] END OF FILE */

@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: LED4.c  
+* File Name: LED5.c  
 * Version 2.20
 *
 * Description:
@@ -15,15 +15,15 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "LED4.h"
+#include "LED5.h"
 
 /* APIs are not generated for P15[7:6] on PSoC 5 */
 #if !(CY_PSOC5A &&\
-	 LED4__PORT == 15 && ((LED4__MASK & 0xC0) != 0))
+	 LED5__PORT == 15 && ((LED5__MASK & 0xC0) != 0))
 
 
 /*******************************************************************************
-* Function Name: LED4_Write
+* Function Name: LED5_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -52,17 +52,17 @@
 *  this function.
 *
 * \funcusage
-*  \snippet LED4_SUT.c usage_LED4_Write
+*  \snippet LED5_SUT.c usage_LED5_Write
 *******************************************************************************/
-void LED4_Write(uint8 value)
+void LED5_Write(uint8 value)
 {
-    uint8 staticBits = (LED4_DR & (uint8)(~LED4_MASK));
-    LED4_DR = staticBits | ((uint8)(value << LED4_SHIFT) & LED4_MASK);
+    uint8 staticBits = (LED5_DR & (uint8)(~LED5_MASK));
+    LED5_DR = staticBits | ((uint8)(value << LED5_SHIFT) & LED5_MASK);
 }
 
 
 /*******************************************************************************
-* Function Name: LED4_SetDriveMode
+* Function Name: LED5_SetDriveMode
 ****************************************************************************//**
 *
 * \brief Sets the drive mode for each of the Pins component's pins.
@@ -85,16 +85,16 @@ void LED4_Write(uint8 value)
 *  APIs (primary method) or disable interrupts around this function.
 *
 * \funcusage
-*  \snippet LED4_SUT.c usage_LED4_SetDriveMode
+*  \snippet LED5_SUT.c usage_LED5_SetDriveMode
 *******************************************************************************/
-void LED4_SetDriveMode(uint8 mode)
+void LED5_SetDriveMode(uint8 mode)
 {
-	CyPins_SetPinDriveMode(LED4_0, mode);
+	CyPins_SetPinDriveMode(LED5_0, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: LED4_Read
+* Function Name: LED5_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -108,16 +108,16 @@ void LED4_SetDriveMode(uint8 mode)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet LED4_SUT.c usage_LED4_Read  
+*  \snippet LED5_SUT.c usage_LED5_Read  
 *******************************************************************************/
-uint8 LED4_Read(void)
+uint8 LED5_Read(void)
 {
-    return (LED4_PS & LED4_MASK) >> LED4_SHIFT;
+    return (LED5_PS & LED5_MASK) >> LED5_SHIFT;
 }
 
 
 /*******************************************************************************
-* Function Name: LED4_ReadDataReg
+* Function Name: LED5_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -126,8 +126,8 @@ uint8 LED4_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred LED4_Read() API because the 
-* LED4_ReadDataReg() reads the data register instead of the status 
+* preferred LED5_Read() API because the 
+* LED5_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -136,19 +136,19 @@ uint8 LED4_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet LED4_SUT.c usage_LED4_ReadDataReg 
+*  \snippet LED5_SUT.c usage_LED5_ReadDataReg 
 *******************************************************************************/
-uint8 LED4_ReadDataReg(void)
+uint8 LED5_ReadDataReg(void)
 {
-    return (LED4_DR & LED4_MASK) >> LED4_SHIFT;
+    return (LED5_DR & LED5_MASK) >> LED5_SHIFT;
 }
 
 
 /* If interrupt is connected for this Pins component */ 
-#if defined(LED4_INTSTAT) 
+#if defined(LED5_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: LED4_SetInterruptMode
+    * Function Name: LED5_SetInterruptMode
     ****************************************************************************//**
     *
     * \brief Configures the interrupt mode for each of the Pins component's
@@ -161,12 +161,12 @@ uint8 LED4_ReadDataReg(void)
     * \param position
     *  The pin position as listed in the Pins component. You may OR these to be 
     *  able to configure the interrupt mode of multiple pins within a Pins 
-    *  component. Or you may use LED4_INTR_ALL to configure the
+    *  component. Or you may use LED5_INTR_ALL to configure the
     *  interrupt mode of all the pins in the Pins component.       
-    *  - LED4_0_INTR       (First pin in the list)
-    *  - LED4_1_INTR       (Second pin in the list)
+    *  - LED5_0_INTR       (First pin in the list)
+    *  - LED5_1_INTR       (Second pin in the list)
     *  - ...
-    *  - LED4_INTR_ALL     (All pins in Pins component)
+    *  - LED5_INTR_ALL     (All pins in Pins component)
     *
     * \param mode
     *  Interrupt mode for the selected pins. Valid options are documented in
@@ -182,19 +182,19 @@ uint8 LED4_ReadDataReg(void)
     *  port.
     *
     * \funcusage
-    *  \snippet LED4_SUT.c usage_LED4_SetInterruptMode
+    *  \snippet LED5_SUT.c usage_LED5_SetInterruptMode
     *******************************************************************************/
-    void LED4_SetInterruptMode(uint16 position, uint16 mode)
+    void LED5_SetInterruptMode(uint16 position, uint16 mode)
     {
-		if((position & LED4_0_INTR) != 0u) 
+		if((position & LED5_0_INTR) != 0u) 
 		{ 
-			 LED4_0_INTTYPE_REG = (uint8)mode; 
+			 LED5_0_INTTYPE_REG = (uint8)mode; 
 		}
     }
     
     
     /*******************************************************************************
-    * Function Name: LED4_ClearInterrupt
+    * Function Name: LED5_ClearInterrupt
     ****************************************************************************//**
     *
     * \brief Clears any active interrupts attached with the component and returns 
@@ -211,11 +211,11 @@ uint8 LED4_ReadDataReg(void)
     *  those associated with the Pins component.
     *
     * \funcusage
-    *  \snippet LED4_SUT.c usage_LED4_ClearInterrupt
+    *  \snippet LED5_SUT.c usage_LED5_ClearInterrupt
     *******************************************************************************/
-    uint8 LED4_ClearInterrupt(void)
+    uint8 LED5_ClearInterrupt(void)
     {
-        return (LED4_INTSTAT & LED4_MASK) >> LED4_SHIFT;
+        return (LED5_INTSTAT & LED5_MASK) >> LED5_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 

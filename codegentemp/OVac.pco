@@ -1,5 +1,5 @@
 # OVac
-# 2017-04-23 21:19:26Z
+# 2017-04-23 21:33:00Z
 
 # IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
 dont_use_io iocell 1 0
@@ -10,7 +10,7 @@ dont_use_io iocell 1 3
 set_location "\emFile:SPI0:BSPIM:mosi_pre_reg_split\" 3 4 1 0
 set_location "ClockBlock" clockblockcell -1 -1 0
 set_io "ADC_in(0)" iocell 1 6
-set_io "LED4(0)" iocell 12 7
+set_io "LED5(0)" iocell 12 7
 set_io "SDA(0)" iocell 12 5
 set_io "SCL(0)" iocell 12 4
 set_io "Solenoid_1(0)" iocell 1 7
