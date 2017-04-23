@@ -327,52 +327,6 @@
 <VisibleNodeIds>
 <v>OVac-000</v>
 <v>OVac-000\OVac</v>
-<v>OVac-000\OVac\CortexM3</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\ADC.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\ADC_AMux.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\ADC_Ext_CP_Clk.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\ADC_in.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\ADC_INT.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\ADC_IRQ.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\ADC_PM.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\ADC_theACLK.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\adjust_timer.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\adjust_timer_PM.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\countdown.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\Countdown_timer.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\Countdown_timer_PM.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_Clock_1.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_ConfigMMC_SPI.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_miso0.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_MMC_HW_SPI.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_mosi0.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_PM.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_sclk0.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_SPI0.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_SPI0_CS.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_SPI0_INT.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\emFile_SPI0_PM.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\functions.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\i2cFunctions.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\LED2.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\LED2_1.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\LED7.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\LiquidCrystal_I2C.lst</v>
-<v>OVac-000\OVac\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
