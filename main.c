@@ -29,6 +29,7 @@
 
 
 //SUUUUUP
+//FUCK YOU
 
 #include <project.h>
 #include <mpu6050.h>
