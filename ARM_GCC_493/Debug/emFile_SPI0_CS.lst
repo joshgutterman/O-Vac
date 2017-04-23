@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
   29:Generated_Source\PSoC5/emFile_SPI0_CS.c **** * Summary:
   30:Generated_Source\PSoC5/emFile_SPI0_CS.c **** *  Assign a new value to the digital port's data output register.  
   31:Generated_Source\PSoC5/emFile_SPI0_CS.c **** *
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 2
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 2
 
 
   32:Generated_Source\PSoC5/emFile_SPI0_CS.c **** * Parameters:  
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
   69 0030 30510040 		.word	1073762608
   70              		.cfi_endproc
   71              	.LFE0:
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 3
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 3
 
 
   72              		.size	emFile_SPI0_CS_Write, .-emFile_SPI0_CS_Write
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
   98 000e 1278     		ldrb	r2, [r2]
   99 0010 D2B2     		uxtb	r2, r2
  100 0012 D2B2     		uxtb	r2, r2
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 4
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 4
 
 
  101 0014 22F00E02 		bic	r2, r2, #14
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
   92:Generated_Source\PSoC5/emFile_SPI0_CS.c **** *******************************************************************************/
   93:Generated_Source\PSoC5/emFile_SPI0_CS.c **** uint8 emFile_SPI0_CS_Read(void) 
   94:Generated_Source\PSoC5/emFile_SPI0_CS.c **** {
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 5
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 5
 
 
  135              		.loc 1 94 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  109:Generated_Source\PSoC5/emFile_SPI0_CS.c **** * Return: 
  110:Generated_Source\PSoC5/emFile_SPI0_CS.c **** *  Returns the current value assigned to the Digital Port's data output register
  111:Generated_Source\PSoC5/emFile_SPI0_CS.c **** *  
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 6
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 6
 
 
  112:Generated_Source\PSoC5/emFile_SPI0_CS.c **** *******************************************************************************/
@@ -351,45 +351,45 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  217 000c 4D000000 		.4byte	.LASF20
  218 0010 01       		.byte	0x1
  219 0011 00000000 		.4byte	.LASF21
- 220 0015 B8010000 		.4byte	.LASF22
+ 220 0015 57010000 		.4byte	.LASF22
  221 0019 00000000 		.4byte	.Ldebug_ranges0+0
  222 001d 00000000 		.4byte	0
  223 0021 00000000 		.4byte	.Ldebug_line0
  224 0025 02       		.uleb128 0x2
  225 0026 01       		.byte	0x1
  226 0027 06       		.byte	0x6
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 7
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 7
 
 
- 227 0028 E6010000 		.4byte	.LASF0
+ 227 0028 F5010000 		.4byte	.LASF0
  228 002c 02       		.uleb128 0x2
  229 002d 01       		.byte	0x1
  230 002e 08       		.byte	0x8
- 231 002f E7000000 		.4byte	.LASF1
+ 231 002f E1000000 		.4byte	.LASF1
  232 0033 02       		.uleb128 0x2
  233 0034 02       		.byte	0x2
  234 0035 05       		.byte	0x5
- 235 0036 AE010000 		.4byte	.LASF2
+ 235 0036 DC010000 		.4byte	.LASF2
  236 003a 02       		.uleb128 0x2
  237 003b 02       		.byte	0x2
  238 003c 07       		.byte	0x7
- 239 003d 27010000 		.4byte	.LASF3
+ 239 003d 21010000 		.4byte	.LASF3
  240 0041 02       		.uleb128 0x2
  241 0042 04       		.byte	0x4
  242 0043 05       		.byte	0x5
- 243 0044 DD010000 		.4byte	.LASF4
+ 243 0044 EC010000 		.4byte	.LASF4
  244 0048 02       		.uleb128 0x2
  245 0049 04       		.byte	0x4
  246 004a 07       		.byte	0x7
- 247 004b 15010000 		.4byte	.LASF5
+ 247 004b 0F010000 		.4byte	.LASF5
  248 004f 02       		.uleb128 0x2
  249 0050 08       		.byte	0x8
  250 0051 05       		.byte	0x5
- 251 0052 9B010000 		.4byte	.LASF6
+ 251 0052 C9010000 		.4byte	.LASF6
  252 0056 02       		.uleb128 0x2
  253 0057 08       		.byte	0x8
  254 0058 07       		.byte	0x7
- 255 0059 6A010000 		.4byte	.LASF7
+ 255 0059 98010000 		.4byte	.LASF7
  256 005d 03       		.uleb128 0x3
  257 005e 04       		.byte	0x4
  258 005f 05       		.byte	0x5
@@ -397,9 +397,9 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  260 0064 02       		.uleb128 0x2
  261 0065 04       		.byte	0x4
  262 0066 07       		.byte	0x7
- 263 0067 5D010000 		.4byte	.LASF8
+ 263 0067 8B010000 		.4byte	.LASF8
  264 006b 04       		.uleb128 0x4
- 265 006c E1000000 		.4byte	.LASF12
+ 265 006c E6010000 		.4byte	.LASF12
  266 0070 02       		.byte	0x2
  267 0071 9201     		.2byte	0x192
  268 0073 2C000000 		.4byte	0x2c
@@ -410,15 +410,15 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  273 007e 02       		.uleb128 0x2
  274 007f 08       		.byte	0x8
  275 0080 04       		.byte	0x4
- 276 0081 56010000 		.4byte	.LASF10
+ 276 0081 50010000 		.4byte	.LASF10
  277 0085 02       		.uleb128 0x2
  278 0086 01       		.byte	0x1
  279 0087 08       		.byte	0x8
- 280 0088 A9010000 		.4byte	.LASF11
+ 280 0088 D7010000 		.4byte	.LASF11
  281 008c 04       		.uleb128 0x4
- 282 008d 10010000 		.4byte	.LASF13
+ 282 008d 0A010000 		.4byte	.LASF13
  283 0091 02       		.byte	0x2
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 8
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 8
 
 
  284 0092 3C02     		.2byte	0x23c
@@ -426,7 +426,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  286 0098 05       		.uleb128 0x5
  287 0099 6B000000 		.4byte	0x6b
  288 009d 06       		.uleb128 0x6
- 289 009e 86010000 		.4byte	.LASF14
+ 289 009e B4010000 		.4byte	.LASF14
  290 00a2 01       		.byte	0x1
  291 00a3 27       		.byte	0x27
  292 00a4 00000000 		.4byte	.LFB0
@@ -452,7 +452,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  312 00cd 77       		.sleb128 -9
  313 00ce 00       		.byte	0
  314 00cf 06       		.uleb128 0x6
- 315 00d0 3A010000 		.4byte	.LASF15
+ 315 00d0 34010000 		.4byte	.LASF15
  316 00d4 01       		.byte	0x1
  317 00d5 45       		.byte	0x45
  318 00d6 00000000 		.4byte	.LFB1
@@ -461,7 +461,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  321 00df 9C       		.byte	0x9c
  322 00e0 F3000000 		.4byte	0xf3
  323 00e4 07       		.uleb128 0x7
- 324 00e5 81010000 		.4byte	.LASF17
+ 324 00e5 AF010000 		.4byte	.LASF17
  325 00e9 01       		.byte	0x1
  326 00ea 45       		.byte	0x45
  327 00eb 6B000000 		.4byte	0x6b
@@ -478,11 +478,11 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  338 0102 1C000000 		.4byte	.LFE2-.LFB2
  339 0106 01       		.uleb128 0x1
  340 0107 9C       		.byte	0x9c
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 9
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 9
 
 
  341 0108 09       		.uleb128 0x9
- 342 0109 F5000000 		.4byte	.LASF19
+ 342 0109 EF000000 		.4byte	.LASF19
  343 010d 01       		.byte	0x1
  344 010e 71       		.byte	0x71
  345 010f 6B000000 		.4byte	0x6b
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  395 002a 16       		.uleb128 0x16
  396 002b 00       		.byte	0
  397 002c 03       		.uleb128 0x3
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 10
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 10
 
 
  398 002d 0E       		.uleb128 0xe
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  452 0064 00       		.byte	0
  453 0065 00       		.byte	0
  454 0066 08       		.uleb128 0x8
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 11
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 11
 
 
  455 0067 34       		.uleb128 0x34
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  509 0028 00000000 		.4byte	.LFB3
  510 002c 1C000000 		.4byte	.LFE3-.LFB3
  511 0030 00000000 		.4byte	0
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 12
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 12
 
 
  512 0034 00000000 		.4byte	0
@@ -718,95 +718,97 @@ ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 1
  539      74696F6E 
  540              	.LASF9:
  541 00db 666C6F61 		.ascii	"float\000"
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 13
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 13
 
 
  541      7400
- 542              	.LASF12:
- 543 00e1 75696E74 		.ascii	"uint8\000"
- 543      3800
- 544              	.LASF1:
- 545 00e7 756E7369 		.ascii	"unsigned char\000"
- 545      676E6564 
- 545      20636861 
- 545      7200
- 546              	.LASF19:
- 547 00f5 656D4669 		.ascii	"emFile_SPI0_CS_ReadDataReg\000"
- 547      6C655F53 
- 547      5049305F 
- 547      43535F52 
- 547      65616444 
- 548              	.LASF13:
- 549 0110 72656738 		.ascii	"reg8\000"
- 549      00
- 550              	.LASF5:
- 551 0115 6C6F6E67 		.ascii	"long unsigned int\000"
- 551      20756E73 
- 551      69676E65 
- 551      6420696E 
- 551      7400
- 552              	.LASF3:
- 553 0127 73686F72 		.ascii	"short unsigned int\000"
- 553      7420756E 
- 553      7369676E 
- 553      65642069 
- 553      6E7400
- 554              	.LASF15:
- 555 013a 656D4669 		.ascii	"emFile_SPI0_CS_SetDriveMode\000"
- 555      6C655F53 
- 555      5049305F 
- 555      43535F53 
- 555      65744472 
- 556              	.LASF10:
- 557 0156 646F7562 		.ascii	"double\000"
- 557      6C6500
- 558              	.LASF8:
- 559 015d 756E7369 		.ascii	"unsigned int\000"
- 559      676E6564 
- 559      20696E74 
- 559      00
- 560              	.LASF7:
- 561 016a 6C6F6E67 		.ascii	"long long unsigned int\000"
- 561      206C6F6E 
- 561      6720756E 
- 561      7369676E 
- 561      65642069 
- 562              	.LASF17:
- 563 0181 6D6F6465 		.ascii	"mode\000"
- 563      00
- 564              	.LASF14:
- 565 0186 656D4669 		.ascii	"emFile_SPI0_CS_Write\000"
- 565      6C655F53 
- 565      5049305F 
-ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccNK8wfg.s 			page 14
+ 542              	.LASF1:
+ 543 00e1 756E7369 		.ascii	"unsigned char\000"
+ 543      676E6564 
+ 543      20636861 
+ 543      7200
+ 544              	.LASF19:
+ 545 00ef 656D4669 		.ascii	"emFile_SPI0_CS_ReadDataReg\000"
+ 545      6C655F53 
+ 545      5049305F 
+ 545      43535F52 
+ 545      65616444 
+ 546              	.LASF13:
+ 547 010a 72656738 		.ascii	"reg8\000"
+ 547      00
+ 548              	.LASF5:
+ 549 010f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 549      20756E73 
+ 549      69676E65 
+ 549      6420696E 
+ 549      7400
+ 550              	.LASF3:
+ 551 0121 73686F72 		.ascii	"short unsigned int\000"
+ 551      7420756E 
+ 551      7369676E 
+ 551      65642069 
+ 551      6E7400
+ 552              	.LASF15:
+ 553 0134 656D4669 		.ascii	"emFile_SPI0_CS_SetDriveMode\000"
+ 553      6C655F53 
+ 553      5049305F 
+ 553      43535F53 
+ 553      65744472 
+ 554              	.LASF10:
+ 555 0150 646F7562 		.ascii	"double\000"
+ 555      6C6500
+ 556              	.LASF22:
+ 557 0157 433A5C55 		.ascii	"C:\\Users\\airamire\\Documents\\PSoC Creator\\OVac."
+ 557      73657273 
+ 557      5C616972 
+ 557      616D6972 
+ 557      655C446F 
+ 558 0185 63796473 		.ascii	"cydsn\000"
+ 558      6E00
+ 559              	.LASF8:
+ 560 018b 756E7369 		.ascii	"unsigned int\000"
+ 560      676E6564 
+ 560      20696E74 
+ 560      00
+ 561              	.LASF7:
+ 562 0198 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 562      206C6F6E 
+ 562      6720756E 
+ 562      7369676E 
+ 562      65642069 
+ 563              	.LASF17:
+ 564 01af 6D6F6465 		.ascii	"mode\000"
+ARM GAS  C:\Users\airamire\AppData\Local\Temp\ccRmsbXE.s 			page 14
 
 
- 565      43535F57 
- 565      72697465 
- 566              	.LASF6:
- 567 019b 6C6F6E67 		.ascii	"long long int\000"
- 567      206C6F6E 
- 567      6720696E 
- 567      7400
- 568              	.LASF11:
- 569 01a9 63686172 		.ascii	"char\000"
- 569      00
- 570              	.LASF2:
- 571 01ae 73686F72 		.ascii	"short int\000"
- 571      7420696E 
- 571      7400
- 572              	.LASF22:
- 573 01b8 433A5C55 		.ascii	"C:\\Users\\airamire\\Desktop\\OVac.cydsn\000"
- 573      73657273 
- 573      5C616972 
- 573      616D6972 
- 573      655C4465 
- 574              	.LASF4:
- 575 01dd 6C6F6E67 		.ascii	"long int\000"
- 575      20696E74 
- 575      00
- 576              	.LASF0:
- 577 01e6 7369676E 		.ascii	"signed char\000"
- 577      65642063 
- 577      68617200 
- 578              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
+ 564      00
+ 565              	.LASF14:
+ 566 01b4 656D4669 		.ascii	"emFile_SPI0_CS_Write\000"
+ 566      6C655F53 
+ 566      5049305F 
+ 566      43535F57 
+ 566      72697465 
+ 567              	.LASF6:
+ 568 01c9 6C6F6E67 		.ascii	"long long int\000"
+ 568      206C6F6E 
+ 568      6720696E 
+ 568      7400
+ 569              	.LASF11:
+ 570 01d7 63686172 		.ascii	"char\000"
+ 570      00
+ 571              	.LASF2:
+ 572 01dc 73686F72 		.ascii	"short int\000"
+ 572      7420696E 
+ 572      7400
+ 573              	.LASF12:
+ 574 01e6 75696E74 		.ascii	"uint8\000"
+ 574      3800
+ 575              	.LASF4:
+ 576 01ec 6C6F6E67 		.ascii	"long int\000"
+ 576      20696E74 
+ 576      00
+ 577              	.LASF0:
+ 578 01f5 7369676E 		.ascii	"signed char\000"
+ 578      65642063 
+ 578      68617200 
+ 579              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
