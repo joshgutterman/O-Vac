@@ -295,7 +295,7 @@ int main()
                     
                     if(average > BOT_THRESHOLD){
                         LED2_Write(0);
-                        LED5_Write(1);                                          //turn LED on                        
+                        LED3_Write(1);                                          //turn LED on                        
                         STATE = LANDED;                                     //Switch to LANDED state 
                         #ifdef LCD
                             setCursor(0,0);
@@ -394,7 +394,7 @@ int main()
                 break;
             case TRANSMIT:
                 LED2_Write(1);
-                LED5_Write(1);
+                LED3_Write(1);
                 #ifdef SD                                   //close old file, open new one
                     FS_FClose(fsfile);
                     sprintf(file, "test%d.txt", ++testnum);

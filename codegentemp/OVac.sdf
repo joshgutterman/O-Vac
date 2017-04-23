@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2017-04-23T21:33:02Z")
+ (DATE "2017-04-23T21:37:38Z")
  (DESIGN "OVac")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -312,7 +312,7 @@
     (INTERCONNECT \\adjust_timer\:TimerUDB\:sT32\:timerdp\:u2\\.cfbo \\adjust_timer\:TimerUDB\:sT32\:timerdp\:u3\\.cfbi (0.000:0.000:0.000))
     (INTERCONNECT \\adjust_timer\:TimerUDB\:sT32\:timerdp\:u3\\.sor \\adjust_timer\:TimerUDB\:sT32\:timerdp\:u2\\.sil (0.000:0.000:0.000))
     (INTERCONNECT \\adjust_timer\:TimerUDB\:sT32\:timerdp\:u3\\.cmsbo \\adjust_timer\:TimerUDB\:sT32\:timerdp\:u2\\.cmsbi (0.000:0.000:0.000))
-    (INTERCONNECT LED5\(0\)_PAD LED5\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT LED3\(0\)_PAD LED3\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT SDA\(0\).pad_out SDA\(0\)_PAD (0.000:0.000:0.000))
     (INTERCONNECT SDA\(0\)_PAD SDA\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT SCL\(0\).pad_out SCL\(0\)_PAD (0.000:0.000:0.000))
