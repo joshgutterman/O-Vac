@@ -27,8 +27,12 @@
 * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 *******************************************************************************/
 
+<<<<<<< HEAD
 
 //LAME
+=======
+//El Pollo loco
+>>>>>>> origin/master
 
 #include <project.h>
 #include <mpu6050.h>
