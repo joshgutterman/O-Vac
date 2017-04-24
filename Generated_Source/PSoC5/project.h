@@ -43,6 +43,8 @@
 #include "LED2_1_aliases.h"
 #include "LED2_1.h"
 #include "adjust_timer.h"
+#include "Solenoid_2_aliases.h"
+#include "Solenoid_2.h"
 #include "ADC_AMux.h"
 #include "ADC_Ext_CP_Clk.h"
 #include "ADC_IRQ.h"

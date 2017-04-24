@@ -60,5 +60,6 @@ set_io "\emFile:SPI0_CS(0)\" iocell 3 7
 # Note: port 12 is the logical name for port 7
 set_io "LED2(0)" iocell 12 6
 set_io "LED2_1(0)" iocell 2 1
+set_io "Solenoid_2(0)" iocell 1 5
 set_io "\emFile:sclk0(0)\" iocell 3 5
 set_location "\ADC:DEC\" decimatorcell -1 -1 0

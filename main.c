@@ -27,16 +27,6 @@
 * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 *******************************************************************************/
 
-//dodgers
-//goLakers
-//LAME
-//KOBEEEE
-//El Pollo loco
-//JORDAN
-//MANTEY
-//OVAC
-
-
 #include <project.h>
 #include <mpu6050.h>
 #include <stdio.h>
@@ -351,7 +341,7 @@ int main()
                 
                 case LANDED:
                     CyDelay(5000u);
-                    //Solenoid_1_Write(1); //turn on solenoid 1
+                    Solenoid_1_Write(1); //turn on solenoid 1
                     #ifdef LCD
                         setCursor(0,0);
                         clear();
@@ -364,7 +354,7 @@ int main()
                             FS_Write(fsfile, sdbuf, strlen(sdbuf));
                     #endif
                     CyDelay(7000u);
-                    //Solenoid_1_Write(0); //turn off soleniod 1
+                    Solenoid_1_Write(0); //turn off soleniod 1
                     CyDelay(5000u);
                     STATE = RESURFACE;
                     #ifdef LCD
@@ -381,9 +371,9 @@ int main()
                 
             case RESURFACE:
                 //CyDelay(4000u);
-                Solenoid_1_Write(1); //turn on solendiod 2
+                Solenoid_2_Write(1); //turn on solendiod 2
                 CyDelay(15000u);
-                Solenoid_1_Write(0); //turn off solenoid 2
+                Solenoid_2_Write(0); //turn off solenoid 2
                 //check pressure sensor to confirm we are at the surface
                 CyDelay(10000u);                                //wait 10 seconds to lift, for testing in pool
                 STATE = TRANSMIT;
